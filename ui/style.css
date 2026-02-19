@@ -1,0 +1,77 @@
+.stApp {
+    background: radial-gradient(circle at top left, rgba(0,255,153,0.12), transparent 50%),
+                radial-gradient(circle at top right, rgba(0,195,255,0.12), transparent 50%),
+                radial-gradient(circle at bottom, rgba(168,85,247,0.12), transparent 50%),
+                #0b0f1a;
+    color: white;
+}
+
+header {visibility: hidden;}
+footer {visibility: hidden;}
+#MainMenu {visibility: hidden;}
+
+.agri-title {
+    font-size: 55px;
+    font-weight: 900;
+    background: linear-gradient(to right, #00ff99, #00c3ff, #a855f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px;
+}
+
+.agri-subtitle {
+    font-size: 18px;
+    color: rgba(255,255,255,0.7);
+    margin-top: -10px;
+}
+
+.glass-card {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    padding: 18px;
+    border-radius: 18px;
+    backdrop-filter: blur(16px);
+    box-shadow: 0px 0px 30px rgba(0,195,255,0.08);
+}
+
+.user-bubble {
+    background: linear-gradient(to right, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
+    border: 1px solid rgba(255,255,255,0.12);
+    padding: 12px;
+    border-radius: 18px;
+    margin: 8px 0px;
+    max-width: 80%;
+    margin-left: auto;
+    color: white;
+}
+
+.ai-bubble {
+    background: rgba(255,255,255,0.10);
+    border: 1px solid rgba(255,255,255,0.12);
+    padding: 12px;
+    border-radius: 18px;
+    margin: 8px 0px;
+    max-width: 80%;
+    color: white;
+}
+
+.stButton > button {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    color: white;
+    border-radius: 16px;
+    padding: 10px 18px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.stButton > button:hover {
+    border: 1px solid rgba(0,255,153,0.5);
+    box-shadow: 0px 0px 20px rgba(0,255,153,0.2);
+    transform: scale(1.02);
+}
+
+section[data-testid="stSidebar"] {
+    background: rgba(255,255,255,0.04) !important;
+    border-right: 1px solid rgba(255,255,255,0.08);
+}

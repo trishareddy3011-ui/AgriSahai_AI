@@ -10,3 +10,6 @@ speechrecognition
 pandas
 streamlit-mic-recorder
 edge-tts
+Pillow
+reportlab
+watchdog
