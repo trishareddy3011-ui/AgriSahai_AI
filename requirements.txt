@@ -7,8 +7,6 @@ numpy
 groq
 pypdf
 speechrecognition
-pyttsx3
 pandas
 streamlit-mic-recorder
-
-
+edge-tts
