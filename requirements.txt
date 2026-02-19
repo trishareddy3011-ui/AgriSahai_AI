@@ -1,0 +1,14 @@
+streamlit
+sentence-transformers
+faiss-cpu
+requests
+python-dotenv
+numpy
+groq
+pypdf
+speechrecognition
+pyttsx3
+pandas
+streamlit-mic-recorder
+
+
